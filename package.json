@@ -1,0 +1,26 @@
+{
+  "name": "ChatRoom",
+  "version": "1.0.0",
+  "description": "A public chatroom with Node js and socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "mocha server/**/*.test.js",
+    "test-watch": "nodemon --exec 'npm test'"
+  },
+  "author": "Akash Sharma",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Akash-Sharma-1/Akash-ChatRooms.git"
+  },
+  "dependencies": {
+    "expect": "^1.20.2",
+    "express": "^4.16.3",
+    "moment": "^2.22.2",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
